@@ -76,3 +76,8 @@ external hash library.
 1. [Pandas](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
 
 
+## PySpark Implementation of LSH
+Same principle but using MapRedue functions and key-value programming style to process data.
+### Dependencies
+1. [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
+2. [Find Spark](https://github.com/minrk/findspark)
