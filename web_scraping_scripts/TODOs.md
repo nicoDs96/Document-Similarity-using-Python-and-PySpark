@@ -1,0 +1,1 @@
+- Add argparse to set verbose output, to set if save or not the page, to set the url
