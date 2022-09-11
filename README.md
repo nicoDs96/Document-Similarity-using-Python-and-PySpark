@@ -4,6 +4,8 @@ Data are first processed using classical programming and then the code
 is re-implemented using Map Reduce framework with PySpark (Apache 
 spark for Python).
 
+You can read something more about it [here](https://nicods96.github.io/hi//fast-document-similarity-in-python/).
+
 ## Web Scraping
 This scripts just create a .csv dataset with fields: title, short description, location, price, timestamp, url <br>
 The code is quite general but the function ```def adv_extractor_to_dataset(adv_container, dest_file)``` is highly specific to the website we are scraping. It just takes as input the HTML containing all the data and file where to write extracted data. This function can be considered as a sample upon which you can build your own data extractor.
